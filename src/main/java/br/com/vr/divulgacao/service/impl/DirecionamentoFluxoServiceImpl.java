@@ -14,7 +14,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import br.com.vr.divulgacao.dto.CanalDTO;
 import br.com.vr.divulgacao.dto.DirecionamentoFluxoDTO;
 import br.com.vr.divulgacao.entity.Canal;
 import br.com.vr.divulgacao.entity.DirecionamentoEnvio;

@@ -3,8 +3,6 @@ package br.com.vr.divulgacao.service.impl;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import javax.validation.ValidationException;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -13,12 +11,9 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import br.com.vr.divulgacao.dto.DirecionamentoEnvioDTO;
-import br.com.vr.divulgacao.dto.DirecionamentoFluxoDTO;
 import br.com.vr.divulgacao.entity.DirecionamentoEnvio;
-import br.com.vr.divulgacao.entity.DirecionamentoFluxo;
 import br.com.vr.divulgacao.repository.DirecionamentoEnvioRepository;
 import br.com.vr.divulgacao.service.DirecionamentoEnvioService;
-import br.com.vr.divulgacao.util.ValidarCPF;
 
 @Service
 public class DirecionamentoEnvioServiceImpl implements DirecionamentoEnvioService {
